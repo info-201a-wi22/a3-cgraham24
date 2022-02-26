@@ -3,6 +3,7 @@ title: "Incarceration Statistics in the US"
 author: "Cole Graham"
 output: html_document
 ---
+
 ## Introduction to the Issue
 The US has a history of racist/prejudice arrests and court decisions resulting in an alarming number of minorities residing in jails and prisons. To evaluate this problem, I chose to look at many statistics pertaining to the jailing of black people in the US and more specifically, Washington. To do those I looked at the black jail population,  total jail population, white jail poulation, as well as state, and county statistics.
 
@@ -14,9 +15,9 @@ To better understand the data and its implications, it was important to find som
 knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE)
 ```
 
-```{r, include = FALSE}
+```{r}
 
-source("analysis.R", local = knitr::knit_global())
+source("analysis.R")
 ```
 
 
